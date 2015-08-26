@@ -10,4 +10,12 @@
 
 @interface WSUnitModel : NSObject
 
+- (void)add: (NSInteger)value;
+
+- (void)setZero;
+
+- (NSInteger)total;
+
+- (NSInteger)count;
+
 @end

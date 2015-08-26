@@ -17,6 +17,7 @@
 		52F7D8371B8DAE1C005A6134 /* WSUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D8361B8DAE1C005A6134 /* WSUnitModel.m */; };
 		52F7D83B1B8DB3D3005A6134 /* UnitKiwiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D83A1B8DB3D3005A6134 /* UnitKiwiTest.m */; };
 		A1432B27870B8E1662F4BBA4 /* libPods-UnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB34E51D08C7D29AC3AEF08 /* libPods-UnitTestTests.a */; };
+		FEF809941B8E06A50076CC17 /* WSModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF809931B8E06A50076CC17 /* WSModelSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EB34E51D08C7D29AC3AEF08 /* libPods-UnitTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E312A9D3B421873EC2E59B4 /* Pods-UnitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestTests/Pods-UnitTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E63BF5A94C9401D857CB135 /* Pods-UnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestTests/Pods-UnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF809931B8E06A50076CC17 /* WSModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSModelSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				52F7D82B1B8DADFC005A6134 /* UnitTestTests.m */,
 				52F7D83A1B8DB3D3005A6134 /* UnitKiwiTest.m */,
+				FEF809931B8E06A50076CC17 /* WSModelSpec.m */,
 				52F7D8291B8DADFC005A6134 /* Supporting Files */,
 			);
 			path = UnitTestTests;
@@ -299,6 +302,7 @@
 			files = (
 				52F7D82C1B8DADFC005A6134 /* UnitTestTests.m in Sources */,
 				52F7D83B1B8DB3D3005A6134 /* UnitKiwiTest.m in Sources */,
+				FEF809941B8E06A50076CC17 /* WSModelSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
