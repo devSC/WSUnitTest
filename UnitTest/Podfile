@@ -1,0 +1,3 @@
+target :UnitTestTests, :exclusive => true do
+    pod 'Kiwi'
+end
