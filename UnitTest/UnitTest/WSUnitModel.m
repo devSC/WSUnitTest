@@ -31,7 +31,7 @@
 - (void)setZero
 {
     if (_prValue == 0) {
-        [NSException raise:@"WSUnitModelNotBeSeted" format:@"can't set a zero value to zero value"];
+//        [NSException raise:@"WSUnitModelNotBeSeted" format:@"can't set a zero value to zero value"];
     }
     _prValue = 0;
 }

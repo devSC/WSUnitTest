@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5203BA781B8EADA80086536B /* WSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5203BA771B8EADA80086536B /* WSPerson.m */; };
+		5203BA7A1B8EADC00086536B /* WSPersonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5203BA791B8EADC00086536B /* WSPersonSpec.m */; };
 		52F7D8121B8DADFC005A6134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D8111B8DADFC005A6134 /* main.m */; };
 		52F7D8151B8DADFC005A6134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D8141B8DADFC005A6134 /* AppDelegate.m */; };
 		52F7D8181B8DADFC005A6134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D8171B8DADFC005A6134 /* ViewController.m */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5203BA761B8EADA80086536B /* WSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPerson.h; sourceTree = "<group>"; };
+		5203BA771B8EADA80086536B /* WSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPerson.m; sourceTree = "<group>"; };
+		5203BA791B8EADC00086536B /* WSPersonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersonSpec.m; sourceTree = "<group>"; };
 		52F7D80C1B8DADFC005A6134 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F7D8101B8DADFC005A6134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F7D8111B8DADFC005A6134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +106,8 @@
 				52F7D8171B8DADFC005A6134 /* ViewController.m */,
 				52F7D8351B8DAE1C005A6134 /* WSUnitModel.h */,
 				52F7D8361B8DAE1C005A6134 /* WSUnitModel.m */,
+				5203BA761B8EADA80086536B /* WSPerson.h */,
+				5203BA771B8EADA80086536B /* WSPerson.m */,
 				52F7D8191B8DADFC005A6134 /* Main.storyboard */,
 				52F7D81C1B8DADFC005A6134 /* Images.xcassets */,
 				52F7D81E1B8DADFC005A6134 /* LaunchScreen.xib */,
@@ -124,6 +131,7 @@
 				52F7D82B1B8DADFC005A6134 /* UnitTestTests.m */,
 				52F7D83A1B8DB3D3005A6134 /* UnitKiwiTest.m */,
 				FEF809931B8E06A50076CC17 /* WSModelSpec.m */,
+				5203BA791B8EADC00086536B /* WSPersonSpec.m */,
 				52F7D8291B8DADFC005A6134 /* Supporting Files */,
 			);
 			path = UnitTestTests;
@@ -292,6 +300,7 @@
 				52F7D8181B8DADFC005A6134 /* ViewController.m in Sources */,
 				52F7D8151B8DADFC005A6134 /* AppDelegate.m in Sources */,
 				52F7D8121B8DADFC005A6134 /* main.m in Sources */,
+				5203BA781B8EADA80086536B /* WSPerson.m in Sources */,
 				52F7D8371B8DAE1C005A6134 /* WSUnitModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F7D82C1B8DADFC005A6134 /* UnitTestTests.m in Sources */,
+				5203BA7A1B8EADC00086536B /* WSPersonSpec.m in Sources */,
 				52F7D83B1B8DB3D3005A6134 /* UnitKiwiTest.m in Sources */,
 				FEF809941B8E06A50076CC17 /* WSModelSpec.m in Sources */,
 			);

@@ -58,7 +58,7 @@ describe(@"WSUnitModel", ^{
         beforeEach(^{
             model = [WSUnitModel new];
             
-            [model add:0];
+            [model add:5];
         });
         
         afterEach(^{
@@ -73,12 +73,6 @@ describe(@"WSUnitModel", ^{
            
             [model setZero];
             [[theValue([model total]) should] equal:theValue(0)];
-        });
-        
-        it(@"should raise a exception when no value added", ^{
-            [[theBlock(^{
-                [model setZero];
-            }) should] raiseWithName:@"WSUnitModelEmptyException"];
         });
         
         

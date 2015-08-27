@@ -36,7 +36,7 @@
 - (void)testExample {
     // This is an example of a functional test case.
 //    XCTAssert(YES, @"Pass");
-    XCTAssertTrue(f1 + f2 == 5);
+    XCTAssertTrue(f1 + f2 == 4);
 }
 
 - (void)testPerformanceExample {
