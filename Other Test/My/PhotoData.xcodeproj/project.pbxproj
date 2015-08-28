@@ -12,6 +12,7 @@
 		211DE62897764E36C9D202FE /* libPods-PhotoDataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AA5881AE096F0292B64D4C /* libPods-PhotoDataTests.a */; };
 		3E2DE0A51749087000D3BB5C /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2DE0A41749087000D3BB5C /* Store.m */; };
 		3E2DE0AA17490C4C00D3BB5C /* photodata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3E2DE0A917490C4C00D3BB5C /* photodata.bin */; };
+		5207FD281B9013E70020F27C /* PhotoDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207FD271B9013E70020F27C /* PhotoDataTestCase.m */; };
 		5A4161414A3AD672B20FD722 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A416BA6F139F61955B8A734 /* PhotoCell.m */; };
 		5A41661336B73FD84E0AE9F7 /* photo-data.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5A4167C9F2D7F9A75737E49A /* photo-data.bin */; };
 		5A41683AB29142F1EA465D3A /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168CD64B1A9D8E1817D2E /* ArrayDataSource.m */; };
@@ -60,6 +61,8 @@
 		3E2DE0A917490C4C00D3BB5C /* photodata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = photodata.bin; sourceTree = "<group>"; };
 		424DD86FCC6193E59086C7E9 /* Pods-PhotoDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoDataTests/Pods-PhotoDataTests.release.xcconfig"; sourceTree = "<group>"; };
 		48AA5881AE096F0292B64D4C /* libPods-PhotoDataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoDataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5207FD261B9013E70020F27C /* PhotoDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDataTestCase.h; sourceTree = "<group>"; };
+		5207FD271B9013E70020F27C /* PhotoDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDataTestCase.m; sourceTree = "<group>"; };
 		5A41644672B329C01770FCEE /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		5A4167C9F2D7F9A75737E49A /* photo-data.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "photo-data.bin"; sourceTree = "<group>"; };
 		5A4168CD64B1A9D8E1817D2E /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				FEB921741B8F619C00DC3D1D /* PhotoDataTests.m */,
+				5207FD261B9013E70020F27C /* PhotoDataTestCase.h */,
+				5207FD271B9013E70020F27C /* PhotoDataTestCase.m */,
 				FEB921721B8F619C00DC3D1D /* Supporting Files */,
 			);
 			path = PhotoDataTests;
@@ -427,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5207FD281B9013E70020F27C /* PhotoDataTestCase.m in Sources */,
 				FEB921751B8F619C00DC3D1D /* PhotoDataTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
