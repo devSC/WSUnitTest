@@ -1,3 +1,0 @@
-target :PhotoData_KiwiTests, :exclusive => true do  
-   pod 'Kiwi'
-end

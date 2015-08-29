@@ -1,3 +1,0 @@
-target :PhotoDataTests, :exclusive => true do
-    pod 'OCMock'
-end
