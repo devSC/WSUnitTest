@@ -17,6 +17,8 @@
 		FEAD43591B91A7EB00D6D3E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAD43581B91A7EB00D6D3E8 /* Images.xcassets */; };
 		FEAD435C1B91A7EB00D6D3E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAD435A1B91A7EB00D6D3E8 /* LaunchScreen.xib */; };
 		FEAD43681B91A7EB00D6D3E8 /* Objc_issue15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD43671B91A7EB00D6D3E8 /* Objc_issue15Tests.m */; };
+		FEAD43751B91B5A200D6D3E8 /* EventDescrpitionFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD43741B91B5A200D6D3E8 /* EventDescrpitionFormatter.m */; };
+		FEAD437A1B91B83E00D6D3E8 /* EventDescrpitionFormatterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD43791B91B83E00D6D3E8 /* EventDescrpitionFormatterSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FEAD43661B91A7EB00D6D3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEAD43671B91A7EB00D6D3E8 /* Objc_issue15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_issue15Tests.m; sourceTree = "<group>"; };
 		FEAD43721B91B36100D6D3E8 /* Specs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specs.h; sourceTree = "<group>"; };
+		FEAD43731B91B5A200D6D3E8 /* EventDescrpitionFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDescrpitionFormatter.h; sourceTree = "<group>"; };
+		FEAD43741B91B5A200D6D3E8 /* EventDescrpitionFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDescrpitionFormatter.m; sourceTree = "<group>"; };
+		FEAD43761B91B5F200D6D3E8 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		FEAD43791B91B83E00D6D3E8 /* EventDescrpitionFormatterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDescrpitionFormatterSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 				FEAD43581B91A7EB00D6D3E8 /* Images.xcassets */,
 				FEAD435A1B91A7EB00D6D3E8 /* LaunchScreen.xib */,
 				FEAD434B1B91A7EB00D6D3E8 /* Supporting Files */,
+				FEAD43731B91B5A200D6D3E8 /* EventDescrpitionFormatter.h */,
+				FEAD43741B91B5A200D6D3E8 /* EventDescrpitionFormatter.m */,
+				FEAD43761B91B5F200D6D3E8 /* Event.h */,
 			);
 			path = "Objc-issue15";
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 				FEAD43671B91A7EB00D6D3E8 /* Objc_issue15Tests.m */,
 				FEAD43651B91A7EB00D6D3E8 /* Supporting Files */,
 				FEAD43721B91B36100D6D3E8 /* Specs.h */,
+				FEAD43791B91B83E00D6D3E8 /* EventDescrpitionFormatterSpec.m */,
 			);
 			path = "Objc-issue15Tests";
 			sourceTree = "<group>";
@@ -257,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAD43751B91B5A200D6D3E8 /* EventDescrpitionFormatter.m in Sources */,
 				FEAD43541B91A7EB00D6D3E8 /* ViewController.m in Sources */,
 				FEAD43511B91A7EB00D6D3E8 /* AppDelegate.m in Sources */,
 				FEAD434E1B91A7EB00D6D3E8 /* main.m in Sources */,
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAD437A1B91B83E00D6D3E8 /* EventDescrpitionFormatterSpec.m in Sources */,
 				FEAD43681B91A7EB00D6D3E8 /* Objc_issue15Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
