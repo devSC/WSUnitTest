@@ -40,6 +40,9 @@
 		D2589A43874AB43F29E2B5D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25895CDCFADCFB9EA3E61C7 /* QuartzCore.framework */; };
 		D2589A50DBD77828B4C7C0A7 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25897EEE1FD9DB3B3F85D2F /* star@2x.png */; };
 		D2589ED42B476CE696EA172A /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25893A25688870E26562CC7 /* PhotoViewController.xib */; };
+		FEAD433A1B914DE000D6D3E8 /* ArrayDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD43391B914DE000D6D3E8 /* ArrayDataSourceTest.m */; };
+		FEAD433C1B9155EF00D6D3E8 /* PhotoViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD433B1B9155EF00D6D3E8 /* PhotoViewControllerTest.m */; };
+		FEAD433E1B91629A00D6D3E8 /* PhotoCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD433D1B91629A00D6D3E8 /* PhotoCellTests.m */; };
 		FEB921751B8F619C00DC3D1D /* PhotoDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB921741B8F619C00DC3D1D /* PhotoDataTests.m */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +110,9 @@
 		D2589996E957E8E4CB73DA85 /* PhotoCell+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoCell+ConfigureForPhoto.h"; sourceTree = "<group>"; };
 		D2589AFB9CE73CC0AD9D1CA4 /* PhotoCell+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PhotoCell+ConfigureForPhoto.m"; sourceTree = "<group>"; };
 		E30CC704EF4A64ACCBF75D6A /* Pods-PhotoDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoDataTests/Pods-PhotoDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEAD43391B914DE000D6D3E8 /* ArrayDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSourceTest.m; sourceTree = "<group>"; };
+		FEAD433B1B9155EF00D6D3E8 /* PhotoViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewControllerTest.m; path = PhotoDataTests/PhotoViewControllerTest.m; sourceTree = "<group>"; };
+		FEAD433D1B91629A00D6D3E8 /* PhotoCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCellTests.m; path = PhotoDataTests/PhotoCellTests.m; sourceTree = "<group>"; };
 		FEB921701B8F619C00DC3D1D /* PhotoDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB921731B8F619C00DC3D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB921741B8F619C00DC3D1D /* PhotoDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoDataTests.m; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 		830DDCAD174613080015841B = {
 			isa = PBXGroup;
 			children = (
+				FEAD433D1B91629A00D6D3E8 /* PhotoCellTests.m */,
+				FEAD433B1B9155EF00D6D3E8 /* PhotoViewControllerTest.m */,
 				830DDCC1174613080015841B /* PhotoData */,
 				FEB921711B8F619C00DC3D1D /* PhotoDataTests */,
 				830DDCB8174613080015841B /* Frameworks */,
@@ -255,6 +263,7 @@
 			children = (
 				FEB921741B8F619C00DC3D1D /* PhotoDataTests.m */,
 				5207FD261B9013E70020F27C /* PhotoDataTestCase.h */,
+				FEAD43391B914DE000D6D3E8 /* ArrayDataSourceTest.m */,
 				5207FD271B9013E70020F27C /* PhotoDataTestCase.m */,
 				FEB921721B8F619C00DC3D1D /* Supporting Files */,
 			);
@@ -433,6 +442,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5207FD281B9013E70020F27C /* PhotoDataTestCase.m in Sources */,
+				FEAD433C1B9155EF00D6D3E8 /* PhotoViewControllerTest.m in Sources */,
+				FEAD433A1B914DE000D6D3E8 /* ArrayDataSourceTest.m in Sources */,
+				FEAD433E1B91629A00D6D3E8 /* PhotoCellTests.m in Sources */,
 				FEB921751B8F619C00DC3D1D /* PhotoDataTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
