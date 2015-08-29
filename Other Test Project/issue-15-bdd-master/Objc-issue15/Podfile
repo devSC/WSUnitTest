@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+
+pod 'MTDates'
+
+target :Specs do
+   link_with 'Objc-issue15Tests'
+
+    pod 'Specta'
+    pod 'OCMockito'
+    pod 'Expecta'
+    pod 'Kiwi'
+end
+

@@ -8,4 +8,5 @@ target :specs do
     pod 'Specta'
     pod 'OCMockito'
     pod 'Expecta'
+    pod 'Kiwi'
 end

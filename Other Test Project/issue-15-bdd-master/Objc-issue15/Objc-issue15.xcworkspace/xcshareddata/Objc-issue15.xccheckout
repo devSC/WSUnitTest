@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98377595-6598-4CBF-80F5-637797A7713F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Objc-issue15</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3B51CDC85F862E7A759699952FD449E58E8CDF5</key>
+		<string>https://github.com/devSC/WSUnitTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Other Test Project/issue-15-bdd-master/Objc-issue15/Objc-issue15.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3B51CDC85F862E7A759699952FD449E58E8CDF5</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/devSC/WSUnitTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3B51CDC85F862E7A759699952FD449E58E8CDF5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3B51CDC85F862E7A759699952FD449E58E8CDF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WSUnitTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
